@@ -1,0 +1,18 @@
+[server]
+maxUploadSize = 500
+maxMessageSize = 500
+enableCORS = false
+enableXsrfProtection = false
+address = "localhost"
+port = 8501
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+primaryColor = "#10a37f"
+backgroundColor = "#212121"
+secondaryBackgroundColor = "#171717"
+textColor = "#ECECEC"
+font = "sans serif"

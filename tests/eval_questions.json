@@ -1,0 +1,10 @@
+[
+  {"query": "What was Apple's total net revenue for fiscal year 2023?", "mode": "auto"},
+  {"query": "What were Apple's primary products and service categories in 2023?", "mode": "auto"},
+  {"query": "What was the net income for Apple in fiscal 2023?", "mode": "auto"},
+  {"query": "What was Apple's total net revenue in fiscal 2022 and how does it compare to 2023?", "mode": "auto"},
+  {"query": "What risk factors did Apple identify related to competition and market conditions?", "mode": "auto"},
+  {"query": "What is Apple's strategy for expanding its services business?", "mode": "auto"},
+  {"query": "How does Apple describe its approach to research and development?", "mode": "auto"},
+  {"query": "What were Apple's total operating expenses in fiscal 2023?", "mode": "auto"}
+]

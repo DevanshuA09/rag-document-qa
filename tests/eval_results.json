@@ -1,0 +1,210 @@
+[
+  {
+    "query": "What was Apple's total net revenue for fiscal year 2023?",
+    "mode": "stuff",
+    "query_type": "Numerical",
+    "answer": "Apple's total net revenue for fiscal year 2023 was $383,285 million [Page 32].",
+    "rag_latency_s": 22.03,
+    "tokens_used": 4601,
+    "cost_usd": 0.023225000000000003,
+    "faithfulness": {
+      "score": 5,
+      "reason": "The answer correctly states Apple's total net revenue for fiscal year 2023 as $383,285 million, which is supported by the context."
+    },
+    "completeness": {
+      "score": 5,
+      "reason": "The answer directly provides the total net revenue for fiscal year 2023 as requested."
+    },
+    "answer_relevancy": {
+      "score": 5,
+      "reason": "The answer is directly on-topic and provides the specific information requested."
+    },
+    "usefulness": {
+      "score": 5,
+      "reason": "The answer provides a specific and precise figure for Apple's total net revenue, which is actionable and insightful for a domain expert."
+    },
+    "grouse_score": 5.0
+  },
+  {
+    "query": "What were Apple's primary products and service categories in 2023?",
+    "mode": "stuff",
+    "query_type": "Factual",
+    "answer": "Apple's primary products and service categories in 2023 were:\n\n1. iPhone\n2. Mac\n3. iPad\n4. Wearables, Home and Accessories\n5. Services [Page 26].",
+    "rag_latency_s": 6.2,
+    "tokens_used": 3481,
+    "cost_usd": 0.017845000000000003,
+    "faithfulness": {
+      "score": 5,
+      "reason": "All claims in the answer are grounded in the context provided."
+    },
+    "completeness": {
+      "score": 5,
+      "reason": "The answer lists all primary product and service categories as requested."
+    },
+    "answer_relevancy": {
+      "score": 5,
+      "reason": "The answer is directly on-topic and lists Apple's primary products and service categories in 2023 without any tangential content."
+    },
+    "usefulness": {
+      "score": 4,
+      "reason": "The answer provides a clear and concise list of Apple's primary product and service categories, which is useful for a domain expert."
+    },
+    "grouse_score": 4.75
+  },
+  {
+    "query": "What was the net income for Apple in fiscal 2023?",
+    "mode": "stuff",
+    "query_type": "Numerical",
+    "answer": "The net income for Apple in fiscal 2023 was $96,995 million [Page 33, Page 32].",
+    "rag_latency_s": 6.98,
+    "tokens_used": 4973,
+    "cost_usd": 0.025115000000000002,
+    "faithfulness": {
+      "score": 5,
+      "reason": "The net income for Apple in fiscal 2023 is accurately stated as $96,995 million, which is directly supported by the context provided on Page 33."
+    },
+    "completeness": {
+      "score": 5,
+      "reason": "The answer directly addresses the question by providing the net income for Apple in fiscal 2023."
+    },
+    "answer_relevancy": {
+      "score": 5,
+      "reason": "The answer is directly on-topic and provides the specific net income figure for Apple in fiscal 2023."
+    },
+    "usefulness": {
+      "score": 5,
+      "reason": "The answer provides a specific and precise figure for Apple's net income in fiscal 2023, which is actionable and insightful for a domain expert."
+    },
+    "grouse_score": 5.0
+  },
+  {
+    "query": "What was Apple's total net revenue in fiscal 2022 and how does it compare to 2023?",
+    "mode": "reciprocal",
+    "query_type": "Comparative",
+    "answer": "I cannot find sufficient information in the document to answer this question.",
+    "rag_latency_s": 6.77,
+    "tokens_used": 4505,
+    "cost_usd": 0.022655,
+    "faithfulness": {
+      "score": 5,
+      "reason": "The answer correctly states that the document does not provide information on Apple's total net revenue for fiscal 2022, which is consistent with the context provided."
+    },
+    "completeness": {
+      "score": 1,
+      "reason": "The answer does not address the question about Apple's total net revenue in fiscal 2022 and its comparison to 2023."
+    },
+    "answer_relevancy": {
+      "score": 3,
+      "reason": "The answer is on-topic but lacks specific information to address the question."
+    },
+    "usefulness": {
+      "score": 1,
+      "reason": "The answer provides no information or insight about Apple's net revenue in fiscal 2022 or 2023."
+    },
+    "grouse_score": 2.5
+  },
+  {
+    "query": "What risk factors did Apple identify related to competition and market conditions?",
+    "mode": "reciprocal",
+    "query_type": "Analytical",
+    "answer": "Apple identified several risk factors related to competition and market conditions:\n\n1. The markets for Apple's products and services are highly competitive, characterized by aggressive price competition, downward pressure on gross margins, continual improvement in product performance, and price sensitivity among consumers and businesses. Competitors often engage in aggressive pricing and have very low-cost structures, sometimes imitating Apple's products and infringing on its intellectual property [Page 5].\n\n2. Apple faces substantial competition from companies with significant technical, marketing, distribution, and other resources, as well as established hardware, software, and service offerings with large customer bases. Competitors imitate Apple's product features and applications to offer more competitive solutions, and competition is expected to intensify as competitors imitate Apple's approach to providing components seamlessly within their offerings or work collaboratively to offer integrated solutions [Page 6].\n\n3. Some competitors have broad product lines, low-priced products, large installed bases of active devices, and large customer bases. Competition has been particularly intense as competitors have aggressively cut prices and lowered product margins. Certain competitors have the resources, experience, or cost structures to provide products and services at little or no profit or even at a loss [Page 6].\n\n4. Apple has a minority market share in the global smartphone, personal computer, tablet, and wearables markets, and some of these markets have experienced little to no growth or have contracted overall [Page 6].",
+    "rag_latency_s": 6.93,
+    "tokens_used": 3591,
+    "cost_usd": 0.020735,
+    "faithfulness": {
+      "score": 1,
+      "reason": "The answer contains claims about competition and market conditions that are not directly supported by the provided context."
+    },
+    "completeness": {
+      "score": 5,
+      "reason": "The answer comprehensively addresses the risk factors related to competition and market conditions as identified by Apple."
+    },
+    "answer_relevancy": {
+      "score": 5,
+      "reason": "The answer is directly on-topic and provides detailed information about the risk factors Apple identified related to competition and market conditions."
+    },
+    "usefulness": {
+      "score": 5,
+      "reason": "The answer provides detailed and specific insights into Apple's identified risk factors related to competition and market conditions, which would be valuable to a domain expert."
+    },
+    "grouse_score": 4.0
+  },
+  {
+    "query": "What is Apple's strategy for expanding its services business?",
+    "mode": "reciprocal",
+    "query_type": "Analytical",
+    "answer": "Apple's strategy for expanding its services business involves several key components:\n\n1. **Continual Introduction of Innovative Products and Services**: Apple focuses on ensuring a continual and timely flow of competitive products, services, and technologies to the marketplace. This includes designing and developing nearly the entire solution for its products, including hardware, operating systems, software applications, and related services [Page 6].\n\n2. **Research and Development**: The company invests in research and development to enhance existing products and services and expand its range of offerings. This includes licensing intellectual property and acquiring third-party businesses and technology [Page 6].\n\n3. **Market Expansion**: Apple is focused on expanding its market opportunities related to smartphones, personal computers, tablets, wearables, accessories, and services. This involves competing in markets characterized by rapid technological advances and substantial competition [Page 6].\n\n4. **Integration of Third-Party Services and Technologies**: The success of new product and service introductions depends on the effective integration of third-party services and technologies into Apple's products and services [Page 11].\n\n5. **Managing Regulatory Challenges**: Apple must navigate global regulatory requirements and barriers to market access, which can impact its ability to offer new products and services [Page 11].\n\n6. **Competitive Factors**: Important competitive factors include price, product and service features, quality and reliability, design and technology innovation, and a strong third-party software and accessories ecosystem [Page 6].\n\nThese strategies collectively aim to enhance Apple's service offerings and expand its presence in various markets.",
+    "rag_latency_s": 7.46,
+    "tokens_used": 3393,
+    "cost_usd": 0.020045,
+    "faithfulness": {
+      "score": 4,
+      "reason": "Most claims are grounded in the context, but the specific mention of 'licensing intellectual property and acquiring third-party businesses and technology' is not directly supported by the provided context."
+    },
+    "completeness": {
+      "score": 5,
+      "reason": "The answer comprehensively addresses Apple's strategy for expanding its services business by covering key components such as innovation, R&D, market expansion, integration of third-party services, regulatory challenges, and competitive factors."
+    },
+    "answer_relevancy": {
+      "score": 5,
+      "reason": "The answer is directly on-topic and provides a detailed explanation of Apple's strategy for expanding its services business."
+    },
+    "usefulness": {
+      "score": 4,
+      "reason": "The answer provides a detailed and structured overview of Apple's strategy, which would be insightful for a domain expert, but lacks specific examples or recent developments."
+    },
+    "grouse_score": 4.5
+  },
+  {
+    "query": "How does Apple describe its approach to research and development?",
+    "mode": "reciprocal",
+    "query_type": "Analytical",
+    "answer": "Apple describes its approach to research and development (R&D) as a critical component of its ability to compete successfully in industries characterized by rapid technological advances. The company emphasizes the importance of ensuring a continual and timely flow of competitive products, services, and technologies to the marketplace. Apple continues to develop new technologies to enhance existing products and services and to expand its range of offerings through R&D, licensing of intellectual property, and acquisition of third-party businesses and technology [Page 6].",
+    "rag_latency_s": 6.38,
+    "tokens_used": 2853,
+    "cost_usd": 0.015215000000000003,
+    "faithfulness": {
+      "score": 4,
+      "reason": "The answer is mostly grounded in the context, but the mention of 'licensing of intellectual property, and acquisition of third-party businesses and technology' is not explicitly found in the provided context."
+    },
+    "completeness": {
+      "score": 5,
+      "reason": "The answer comprehensively addresses Apple's approach to research and development, highlighting its importance, focus on continual innovation, and methods such as R&D, licensing, and acquisitions."
+    },
+    "answer_relevancy": {
+      "score": 5,
+      "reason": "The answer is directly on-topic and focused on describing Apple's approach to research and development."
+    },
+    "usefulness": {
+      "score": 4,
+      "reason": "The answer provides a clear overview of Apple's R&D strategy, which is useful for a domain expert seeking insight into the company's competitive approach."
+    },
+    "grouse_score": 4.5
+  },
+  {
+    "query": "What were Apple's total operating expenses in fiscal 2023?",
+    "mode": "stuff",
+    "query_type": "Numerical",
+    "answer": "Apple's total operating expenses in fiscal 2023 were $54,847 million [Page 32].",
+    "rag_latency_s": 5.77,
+    "tokens_used": 5337,
+    "cost_usd": 0.026895000000000002,
+    "faithfulness": {
+      "score": 1,
+      "reason": "The context does not provide information about Apple's total operating expenses in fiscal 2023."
+    },
+    "completeness": {
+      "score": 5,
+      "reason": "The answer directly provides the total operating expenses for fiscal 2023 as requested."
+    },
+    "answer_relevancy": {
+      "score": 5,
+      "reason": "The answer is directly on-topic and provides the specific information requested."
+    },
+    "usefulness": {
+      "score": 5,
+      "reason": "The answer provides a specific and precise figure for Apple's total operating expenses in fiscal 2023, which is actionable and insightful for a domain expert."
+    },
+    "grouse_score": 4.0
+  }
+]
